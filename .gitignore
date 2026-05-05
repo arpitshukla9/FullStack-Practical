@@ -11,13 +11,7 @@ pnpm-lock.yaml
 .env.production
 .env.development
 
-# Build outputs
-dist/
-build/
-out/
-*.tsbuildinfo
-*.js
-*.js.map
+
 
 # IDE & Editor
 .vscode/
@@ -54,69 +48,3 @@ pids/
 *.sqlite3
 postgres_data/
 
-# Cache
-.cache/
-.eslintcache
-.prettiercache
-
-# Temporary files
-tmp/
-temp/
-*.tmp
-
-# OS
-Thumbs.db
-.Thumbs.db
-
-# Docker
-docker-compose.override.yml
-
-# Terraform
-.terraform/
-.terraform.lock.hcl
-*.tfstate
-*.tfstate.*
-terraform.tfvars
-terraform.tfvars.json
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-crash.log
-crash.*.log
-
-# AWS
-.aws/
-aws-exports.js
-
-# Secrets & Keys
-*.pem
-*.key
-*.crt
-*.p8
-.aws/
-.ssh/
-
-# Uploads
-uploads/
-public/uploads/
-
-# CI/CD
-.github/workflows/secrets.yml
-
-# NestJS specific
-dist/
-node_modules/
-
-# Prisma
-prisma/dev.db
-prisma/dev.db-journal
-
-# Vite
-.vite/
-.vitecache
-
-# Misc
-.turbo/
-dist-ssr/
-*.local
